@@ -1,0 +1,49 @@
+{
+  "name": "generator-laat-nm",
+  "version": "0.0.0",
+  "description": "Scaffold out a node module",
+  "license": "MIT",
+  "repository": "laat/generator-laat-nm",
+  "author": {
+    "name": "Sigurd Fosseng",
+    "email": "sigurd@fosseng.net",
+    "url": "https://github.com/laat"
+  },
+  "engines": {
+    "node": ">=4"
+  },
+  "scripts": {
+    "test:spec": "mocha --reporter mocha-tap13 test.js",
+    "lint": "eslint app test.js",
+    "test": "npm run lint && npm run test:spec"
+  },
+  "files": [
+    "app"
+  ],
+  "keywords": [
+    "yeoman-generator",
+    "plugin",
+    "boilerplate",
+    "template",
+    "scaffold",
+    "node",
+    "module",
+    "node_module",
+    "node-module",
+    "init",
+    "laat"
+  ],
+  "dependencies": {
+    "underscore.string": "^3.0.3",
+    "yeoman-generator": "^0.22.1"
+  },
+  "devDependencies": {
+    "eslint": "^2.8.0",
+    "eslint-config-airbnb-base": "^1.0.3",
+    "eslint-plugin-import": "^1.5.0",
+    "mocha": "^2.4.5",
+    "mocha-tap13": "^1.0.2",
+    "yeoman-assert": "^2.0.0",
+    "yeoman-test": "^1.0.0"
+  }
+}

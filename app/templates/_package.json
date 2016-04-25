@@ -1,0 +1,26 @@
+{
+  "name": "<%= moduleName %>",
+  "version": "0.0.0",
+  "description": "My awesome module",
+  "license": "MIT",
+  "repository": "laat/<%= moduleName %>",
+  "author": {
+    "name": "Sigurd Fosseng",
+    "email": "sigurd@fosseng.net",
+    "url": "https://github.com/laat"
+  },
+  "engines": {
+    "node": ">=4"
+  },
+  "scripts": {
+    "test": "exit 0"
+  },
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    "laat"
+  ],
+  "devDependencies": {
+  }
+}
